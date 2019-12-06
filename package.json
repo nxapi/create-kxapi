@@ -1,0 +1,21 @@
+{
+  "name": "@nxapi/create-kxapi",
+  "version": "0.0.4",
+  "description": "@nxapi/create-kxapi",
+  "scripts": {
+    "start": "git-common-cli nxapi/kxapi-helloworld kxapi"
+  },
+  "author": "pengxiang",
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "create-kxapi": "./index.js"
+  },
+  "dependencies": {
+    "git-common-cli": "0.0.5",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {}
+}
